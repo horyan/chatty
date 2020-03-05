@@ -1,10 +1,10 @@
 <template>
   <div class="flex mx-auto h-screen items-center w-1/2">
-    <div class="border px-4 py-4 w-full">
+    <div class="border-2 border-blue-500 px-4 py-4 w-full">
       <MessagesList :messageList="messages"/>
+      <span v-if="!isValidMessage" class="text-red-600">Please enter valid message<br/></span>
       Your automatically generated chat name: {{name}}
-      <div class="flex flex-wrap">
-        <span v-if="!isValidMessage">Please enter valid message</span>
+      <div class="flex">
         <input class="flex-1 bg-white border border-blue-500 focus:outline-none focus:border-blue-700 py-2 px-4 appearance-none" type="text" placeholder="Enter a message" v-model="newMessage"/>
         <button class="bg-blue-500 border border-blue-500 hover:border-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4" @click="sendMessage(newMessage)">Send Message</button>
       </div>
