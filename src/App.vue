@@ -2,9 +2,9 @@
   <div class="flex mx-auto h-screen items-center w-1/2">
     <div class="w-full">
       <MessagesList class="my-2" :messageList="messages"/>
-      <span v-if="!isValidMessage" class="flex text-blue-600">Please enter valid message</span>
-      <span class="flex border-t border-gray-500 py-1">Your automatically generated chat name:
-        <span class="font-semibold text-blue-600 pl-1">{{name}}</span>
+      <span v-if="!isValidMessage" class="flex text-blue-600 text-sm">Please enter valid message</span>
+      <span class="flex border-t border-gray-500 text-sm py-1">Your automatically generated chat name:
+        <span class="font-semibold text-blue-600 text-sm pl-1">{{name}}</span>
       </span>
       <div class="flex leading-snug">
         <input class="flex-1 rounded-l bg-gray-200 border border-gray-200 hover:border-gray-500 focus:bg-white focus:border-gray-500 focus:outline-none text-gray-700 px-3 py-2" type="text" placeholder="Enter message..." v-model="newMessage"/>
