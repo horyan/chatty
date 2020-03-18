@@ -1,6 +1,6 @@
 <template>
   <div class="flex mx-auto h-screen items-center w-1/2">
-    <div class="border-2 border-blue-500 px-4 py-4 w-full">
+    <div class="w-full">
       <MessagesList class="my-5" :messageList="messages"/>
       <span v-if="!isValidMessage" class="flex text-blue-300">Please enter valid message</span>
       <span class="flex border-t border-blue-500 py-1">Your automatically generated chat name:
