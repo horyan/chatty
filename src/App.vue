@@ -2,13 +2,13 @@
   <div class="flex mx-auto h-screen items-center w-1/2">
     <div class="w-full">
       <MessagesList class="my-5" :messageList="messages"/>
-      <span v-if="!isValidMessage" class="flex text-blue-300">Please enter valid message</span>
-      <span class="flex border-t border-blue-500 py-1">Your automatically generated chat name:
-        <span class="font-semibold text-blue-500 pl-1">{{name}}</span>
+      <span v-if="!isValidMessage" class="flex text-blue-600">Please enter valid message</span>
+      <span class="flex border-t border-gray-500 py-1">Your automatically generated chat name:
+        <span class="font-semibold text-blue-600 pl-1">{{name}}</span>
       </span>
-      <div class="flex">
-        <input class="flex-grow rounded-l-lg bg-gray-100 border border-blue-500 focus:outline-none focus:border-blue-700 py-2 px-4 appearance-none" type="text" placeholder="Enter a message" v-model="newMessage"/>
-        <button class="rounded-r-lg bg-blue-500 border border-blue-500 hover:border-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4" @click="sendMessage(newMessage)">Send Message</button>
+      <div class="flex leading-snug">
+        <input class="flex-1 rounded-l bg-gray-200 border border-gray-200 hover:border-gray-500 focus:bg-white focus:border-gray-500 focus:outline-none text-gray-700 px-3 py-2" type="text" placeholder="Enter message..." v-model="newMessage"/>
+        <button class="rounded-r bg-blue-600 border border-blue-600 hover:border-blue-700 hover:bg-blue-700 focus:outline-none text-white px-8 py-3" @click="sendMessage(newMessage)">Send</button>
       </div>
     </div>
   </div>
