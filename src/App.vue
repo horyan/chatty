@@ -6,7 +6,7 @@
     <!--<div class="flex mx-auto h-screen items-center w-1/2">-->
     <section class="py-12 px-4">
       <!--<div class="w-full">-->
-      <div class="w-full max-w-2xl mx-auto">
+      <div class="max-w-3xl mx-auto">
         <MessagesList class="my-2" :messageList="messages" :activeUser="name"/>
         <span v-if="!isValidMessage" class="flex text-blue-600 text-sm">Please enter valid message</span>
         <div class="flex leading-snug">
