@@ -1,11 +1,9 @@
 <template>
   <div>
     <div class="mt-24">
-      <img class="mx-auto" src="./assets/logo.png">
+      <img class="mx-auto h-48" src="./assets/logo.png">
     </div>
-    <!--<div class="flex mx-auto h-screen items-center w-1/2">-->
-    <section class="py-12 px-4">
-      <!--<div class="w-full">-->
+    <section class="pt-12 pb-24 px-4">
       <div class="max-w-3xl mx-auto">
         <MessagesList class="my-2" :messageList="messages" :activeUser="name"/>
         <span v-if="!isValidMessage" class="flex text-blue-600 text-sm">Please enter valid message</span>
