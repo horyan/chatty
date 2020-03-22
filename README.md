@@ -16,7 +16,7 @@ Chatty is a realtime, anonymous webchat application that uses a number of open s
 ### Built With
 * [Vue.js](https://vuejs.org/) - JavaScript framework for building web UI
 * [Firebase](https://firebase.google.com) - cloud-hosted, NoSQL database for syncing realtime data
-* [Tailwind CSS](https://tailwindcss.com) - low-level CSS framework for customized designs
+* [Tailwind CSS](https://tailwindcss.com) - low-level CSS framework for customizable designs
 * [Netlify](https://www.netlify.com/) - web project deployment
 
 ## Getting Started
