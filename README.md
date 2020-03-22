@@ -10,7 +10,7 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About the Project
-[![Chatty screenshot][/images/screenshot.png]](https://chattty.netlify.com/)
+![Chatty screenshot][/images/screenshot.png]
 Chatty is a realtime, anonymous webchat application that uses a number of open source projects to work properly. You can demo it [here](https://chattty.netlify.com).
 
 ### Built With
@@ -64,6 +64,7 @@ npm run lint
 * Users can interact with each other by sending chat messages
 * Messages are only sent if they are validated to be non-empty
 * Messages are displayed with the associated sender and relative time
+* Different colors used for distinguishing names of active/non-active senders
 
 ## Roadmap
 The following improvements will be addressed in the near-future:
