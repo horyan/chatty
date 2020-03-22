@@ -4,13 +4,13 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
+  * [Usage](#usage)
 * [Features](#features)
 * [Roadmap](#roadmap)
 * [Acknowledgements](#acknowledgements)
 
 ## About the Project
-![Chatty screenshot][/images/screenshot.png]
+![Chatty screenshot](/images/screenshot.png)
 Chatty is a realtime, anonymous webchat application that uses a number of open source projects to work properly. You can demo it [here](https://chattty.netlify.com).
 
 ### Built With
@@ -42,7 +42,7 @@ npm install
     .initializeApp({ projectId: 'ENTER YOUR PROJECT ID' })
 ```
 
-## Usage
+### Usage
 
 Compiles and hot-reloads for development
 ```
