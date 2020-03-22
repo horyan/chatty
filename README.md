@@ -10,7 +10,7 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About the Project
-![Chatty screenshot][/images/screenshot.jpg]
+![Chatty screenshot][/images/screenshot.jpg](https://chattty.netlify.com/)
 Chatty is a realtime, anonymous webchat application that uses a number of open source projects to work properly. You can demo it [here](https://chattty.netlify.com).
 
 ### Built With
