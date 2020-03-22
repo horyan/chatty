@@ -1,5 +1,5 @@
 ## Table of Contents
-* [About the Project](#about-the-project)
+* [About Chatty](#about-chatty)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -9,9 +9,9 @@
 * [Roadmap](#roadmap)
 * [Acknowledgements](#acknowledgements)
 
-## About the Project
-![Chatty screenshot](/images/screenshot.png)
-Chatty is a realtime, anonymous webchat application that uses a number of open source projects to work properly. You can demo it [here](https://chattty.netlify.com).
+## About Chatty
+[![Chatty screenshot](/images/screenshot.png)](https://chattty.netlify.com)
+Chatty is a realtime, anonymous webchat application that uses a number of open source projects to work properly. Demo available [here](https://chattty.netlify.com).
 
 ### Built With
 * [Vue.js](https://vuejs.org/) - JavaScript framework for building web UI
@@ -43,7 +43,6 @@ npm install
 ```
 
 ### Usage
-
 Compiles and hot-reloads for development
 ```
 npm run serve
@@ -61,14 +60,17 @@ npm run lint
 
 ## Features
 * Every user is automatically assigned a randomly generated name
-* Users can interact with each other by sending chat messages
-* Messages are only sent if they are validated to be non-empty
-* Messages are displayed with the associated sender and relative time
-* Different colors used for distinguishing names of active/non-active senders
+	* Names are automatically re-assigned on page reload
+* Users can interact with each other by receiving and optionally sending chat messages
+* Users have the option to type and preview their input before sending message
+	* Messages can be sent by using either "Enter" key or on-screen send button
+	* Messages are only sent if they are validated to be non-empty
+* Chat messages are displayed along with the sender's name and the relative time it was sent ago
+	* The active user's name is rendered with an orange property to differentiate from other users
 
 ## Roadmap
 The following improvements will be addressed in the near-future:
-* restrict chat screen size and add scrolling
+* add fixed-size and scrolling for chat screen
 * add ability to remove or edit own messages
 
 ## Acknowledgements
